@@ -7,7 +7,7 @@ const ingredients = [
   ];
   
 
-  const ulIngredientsList = document.getElementById('ingredients');
+  const IngredientsList = document.getElementById('ingredients');
   
 
   const fragment = document.createDocumentFragment();
@@ -20,5 +20,5 @@ const ingredients = [
   });
   
 
-  ulIngredientsList .appendChild(fragment);
+  IngredientsList .appendChild(fragment);
   
